@@ -1,0 +1,29 @@
+{
+    "name": "pong",
+    "version": "1.0.0",
+    "description": "Server for Pong online game",
+    "authors": [
+        {
+            "name": "Diego Rodríguez",
+            "email": "diego_pkv@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/DiegoPKVigo/pong-server",
+    "readme": "README.md",
+    "license": "GPL-3.0",
+    "type": "project",
+    "support": {
+        "email":"diego_pkv@hotmail.com",
+        "issues": "https://github.com/DiegoPKVigo/pong-server/issues",
+        "source": "https://github.com/DiegoPKVigo/pong-server/tree/main/src"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pong\\": "src"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "^0.4.3"
+    }
+}
